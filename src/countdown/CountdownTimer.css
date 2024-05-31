@@ -1,0 +1,22 @@
+.countdown-container {
+    /*padding-top: 30px;*/
+    text-align: center;
+}
+ 
+
+#countdown {
+     margin-top: 20px;
+    background-color: black; /*  black background */
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block; /* Ensures the background width fits content */
+    width: 300px; /* Set the width of the background */
+}
+
+.countdown-item {
+    color: white; /* White text color */
+    margin-bottom: 10px; /* Spacing between items */
+    padding: 15px; /* Increase padding for better visibility */
+    font-size: 28px; /* Increase font size */
+    display: block; /* Display each item on a separate line */
+}
